@@ -1,0 +1,93 @@
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #000000;
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --background-color-button-hover: #f5f5f5;
+  --color-copyright: #747272;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-link {
+  color: var(--color-brand-dark);
+}
+
+.header-link:hover {
+  color: var(--color-brand-light);
+}
+
+.hero-item {
+  color: var(--color-brand-dark);
+}
+
+.hero-title {
+  color: var(--color-brand-dark);
+}
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border-radius: 32px;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: var(--background-color-button-hover);
+}
+.hero-item2 {
+  color: var(--color-brand-dark);
+}
+
+.about-us-title {
+  color: var(--color-brand-dark);
+}
+
+.accent {
+  color: var(--color-brand-light);
+}
+
+.about-us-item {
+  color: var(--color-brand-dark);
+}
+
+.about-us-item2 {
+  color: var(--color-brand-dark);
+}
+
+.why-title {
+  color: var(--color-brand-dark);
+}
+
+.why-item {
+  color: var(--color-primary-dark);
+}
+
+.services-title {
+  color: var(--color-brand-dark);
+}
+
+.services-item {
+  color: var(--color-primary-light);
+}
+
+.contact-title {
+  color: var(--color-brand-dark);
+}
+
+.contact-item {
+  color: var(--color-primary-light);
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+}
+
+.address-link {
+  color: var(--color-primary-light);
+}
+
+.address-copyright {
+  color: var(--color-copyright);
+}
