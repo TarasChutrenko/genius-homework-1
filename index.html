@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beauty Zone</title>
+    <title lang="en">Beauty Zone</title>
     <link rel="stylesheet" href="./Css/styles.css" />
   </head>
   <body>
     <header>
       <div>
         <nav>
-          <img src="./images/logo.svg" alt="Логотип" />
+          <a href="#"><img src="./images/logo.svg" alt="Логотип" /></a>
           <ul>
             <li><a class="header-link" href="#about-us-section">Про нас</a></li>
             <li><a class="header-link" href="#why-section">Чому ми</a></li>
@@ -35,24 +35,33 @@
     <main>
       <section class="hero-section">
         <p class="hero-item">Косметологічна клініка</p>
-        <h1 class="hero-title">Beauty Zone</h1>
+        <h1 class="hero-title" lang="en">Beauty Zone</h1>
         <button type="button" class="button">Замовити дзвінок</button>
         <p class="hero-item2">Запишись та отримай безкоштовну</p>
         <p class="hero-item2">консультацію нашого косметолога</p>
       </section>
       <section class="about-us-section section" id="about-us-section">
         <h2 class="about-us-title">
-          Перевтілюйтесь в <span class="accent">Beauty Zone!</span>
+          Перевтілюйтесь в <span class="accent" lang="en">Beauty Zone!</span>
         </h2>
         <p class="about-us-item">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p class="about-us-item2">
-          B <span>Beauty Zone</span> ми гарантуємо найвищі стандарти якості та
-          приємний сервіс. Наші косметологічні процедури та препарати допоможуть
-          вам підтримувати свою красу та молодість. З нами краса назавжди!
+        <img
+          src="./images/woman with unscathed scin.jpg"
+          alt="Жінка з пошкодженою шкірою"
+        />
+        <p class="about-us-item">
+          B <span class="bold" lang="en">Beauty Zone</span> ми гарантуємо
+          найвищі стандарти якості та приємний сервіс. Наші косметологічні
+          процедури та препарати допоможуть вам підтримувати свою красу та
+          молодість. З нами краса назавжди!
         </p>
+        <img
+          src="./images/woman with recover skin.jpg"
+          alt="Та сама жінка після процедури"
+        />
       </section>
       <section class="why-section section" id="why-section">
         <h2 class="why-title">
@@ -92,19 +101,28 @@
         <ul>
           <li>
             <article>
-              <!-- image 1 -->
+              <img
+                src="./images/girl with face mask.jpg"
+                alt="Дівчині роблять маску для обличчя"
+              />
               <p class="services-item">Маски для обличчя</p>
             </article>
           </li>
           <li>
             <article>
-              <!-- image 2 -->
+              <img
+                src="./images/girl do injection.jpg"
+                alt="Дівчині роблять ін'єкцію обличчя"
+              />
               <p class="services-item">Ін'єкції для обличчя</p>
             </article>
           </li>
           <li>
             <article>
-              <!-- image 3 -->
+              <img
+                src="./images/girl clear face.jpg"
+                alt="Дівчині очищають обличчя"
+              />
               <p class="services-item">Очищення обличчя</p>
             </article>
           </li>
@@ -131,7 +149,7 @@
     </main>
     <footer>
       <nav>
-        <img src="./images/logo.svg" alt="Логотип" />
+        <a href="#"><img src="./images/logo.svg" alt="Логотип" /></a>
         <ul>
           <li><a class="footer-link" href="#about-us-section">Про нас</a></li>
           <li><a class="footer-link" href="#why-section">Чому ми</a></li>
@@ -170,11 +188,15 @@
         </a>
         <a href="#">
           <!-- icon instagram -->
-        </a>
+        <ul>
+          <li></a>
         <a class="address-link" href="#" target="_blank"
           >Політика конфіденційності</a
-        >
-        <p class="address-copyright">&copy 2022 Дані захищені</p>
+        ></li>
+          <li> <p class="address-copyright">&copy2022 Дані захищені</p></li>
+        </ul>
+       
+        <img src="./images/bottles.jpg" alt="пляшка від ліків" />
       </address>
     </footer>
   </body>
